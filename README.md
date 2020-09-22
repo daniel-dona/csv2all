@@ -1,2 +1,2 @@
 # csv2json-lm
-Memory contrained CSV to JSON converter
+Memory constrained CSV to JSON converter
