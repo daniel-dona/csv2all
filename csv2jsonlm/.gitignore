@@ -1,0 +1,4 @@
+dist
+build
+csv2jsonlm.egg-info
+__pycache__
