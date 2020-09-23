@@ -2,13 +2,17 @@
 
 import argparse
 
-parser = argparse.ArgumentParser(description='CSV to JSON (array) converter', prog="csv2jsonlm")
-parser.add_argument('-o', '--output', dest='output', required=True, help="Output JSON file")
+parser = argparse.ArgumentParser(description='CSV to JSON (array) converter', prog="csv2all")
+parser.add_argument('-f', '--format', dest='format', required=True, help="Output format (json or xml)")
+parser.add_argument('-o', '--output', dest='output', required=True, help="Output file")
 parser.add_argument('-i', '--input', dest='input', required=True,  help="Input CSV file")
 
 args = parser.parse_args()
 
 n = 0
+
+if args.format != "json":
+	print("Format not supported (yet?)")
 
 if True:
 
