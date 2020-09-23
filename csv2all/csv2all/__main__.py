@@ -78,7 +78,7 @@ if True:
 
 		if last_line:
 
-			print("Processed: ",n,"lines")
+			#print("Processed: ",n,"lines")
 
 			break
 
